@@ -41,5 +41,6 @@ checkpoints/
 # ---- 编辑器 / 系统 ----
 .vscode/
 .idea/
+.workbuddy/
 .DS_Store
 Thumbs.db
