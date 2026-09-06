@@ -1,0 +1,45 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- PyTorch / 训练产物 ----
+*.pt
+*.pth
+*.ckpt
+runs/
+logs/
+wandb/
+tensorboard/
+lightning_logs/
+
+# ---- 数据 & 模型输出（4DGS 体积通常很大，别传 GitHub）----
+data/
+dataset/
+datasets/
+output/
+outputs/
+result/
+results/
+checkpoints/
+*.ply
+*.splat
+*.npy
+*.npz
+*.mp4
+*.tar
+*.zip
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
